@@ -1,0 +1,17 @@
+{
+  "name": "blacklist_server",
+  "version": "0.0.1",
+  "main": "server.js",
+  "license": "MIT",
+  "bin": {
+    "blacklist-server": "./server.js"
+  },
+  "dependencies": {
+    "vscode-languageserver": "^7.0.0",
+    "vscode-languageserver-textdocument": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "prettier": "^2.3.0"
+  }
+}
